@@ -1,4 +1,4 @@
-cnf = YAML::load_file(File.join(File.dirname(File.expand_path(__FILE__)), 'config.yml'))
+cnf = YAML::load_file(File.join(File.dirname(File.expand_path(__FILE__)), 'emoticons.yml'))
 
 def load_library
   # code goes here
