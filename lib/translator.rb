@@ -6,7 +6,7 @@ def load_library(path)
   emoticons.each do |meaning,array|
     eng, jap = array
     library["get_emoticon"][eng] = jap
-    library["get_meaning"][jap] = eng
+    library["get_meaning"][jap] = meaning
   end
   library
 end
