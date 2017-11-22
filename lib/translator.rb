@@ -1,7 +1,7 @@
 require "yaml"
 
 def load_library(path)
-  p emoticons = YAML.load_file(path)
+  emoticons = YAML.load_file(path)
   get_emoticon = {}
   get_meaning = {}
   emoticons.each do |k, v|
