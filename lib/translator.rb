@@ -8,7 +8,7 @@ def load_library(path)
     library["get_emoticon"][eng] = jap
     library["get_meaning"][jap] = meaning
   end
-  p library
+  library
 end
 
 def get_japanese_emoticon(path, emoticon)
