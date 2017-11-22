@@ -5,8 +5,8 @@ def load_library(path)
   get_emoticon = {}
   get_meaning = {}
   emoticons.each do |k, v|
-    get_emoticon[v[0]] = k
-    get_meaning[v[1]] = k
+    get_emoticon[v] = k
+    get_meaning[v] = k
   end
   p get_emoticon
 end
