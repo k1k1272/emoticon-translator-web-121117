@@ -8,6 +8,7 @@ def load_library(path)
     get_emoticon[k] = v[0]
     get_meaning[k] = v[1]
   end
+  p get_emoticon
 end
 
 def get_japanese_emoticon
